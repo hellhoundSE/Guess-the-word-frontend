@@ -1,0 +1,61 @@
+
+body {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.login{
+  width: 700px;
+  padding: 5%px;
+  margin-top: 350px;
+  background-color: bisque;
+  opacity: 0.7;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.lives-block{
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.guessing-block{
+  margin-top: 3%;
+  margin-left: 8%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.guessing-chars{
+  font-size: 50px;
+  width: 30px;
+  height: 30px;
+  margin-top: 1%;
+  margin-right: 100px;
+  opacity: 0.7;
+  text-align: center;
+}
+.chars-block{
+  margin-top: 12%;
+  margin-left: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.chars{
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 12px;
+  margin: 4px;
+  display:block;
+  font-size: 25px;
+  width: 12px;
+  height: 60px;
+  background-color: moccasin;
+  opacity: 0.7;
+  cursor:pointer;
+  border: 1px solid red;
+}
